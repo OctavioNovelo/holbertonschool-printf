@@ -6,4 +6,9 @@
  */
 int _printf(const char *format, ...);
 
+/**
+ * function that print a char
+ */
+int _putchar(char c);
+
 #endif /* MAIN_H */
