@@ -1,6 +1,19 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ *
+ *
+ *
+ *
+ */
+struct definer
+{
+	char *sym;
+	int (*f)(va_list);
+};
+typedef struct definer definer;
+
 /*Main functions*/
 int _printf(const char *format, ...);
 int _putchar(char c);
