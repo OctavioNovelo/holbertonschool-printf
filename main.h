@@ -3,10 +3,9 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ * definer - defines a structure for symbols and functions
+ * @sym: The operator
+ * @f The function associated
  */
 struct definer
 {
@@ -18,6 +17,6 @@ typedef struct definer definer;
 /*Main functions*/
 int _printf(const char *format, ...);
 int _putchar(char c);
-int checker(const char *format, conver_t f_list[], va_list arg_list);
+int checker(const char *format, definer f_list[], va_list arg_list);
 
 #endif /* MAIN_H */
