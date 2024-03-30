@@ -2,17 +2,16 @@
 /**
  *
  */
-int print_percent(va_list args)
+int print_percent(char *str)
 {
-   char *str = va_arg(args, char *);
-
-   if (*str == '%')
-     {
-       _putchar('%');
-     }
-   else if (*str == NULL)
+  if (str == NULL)
      {
        return NULL;
      }
+  if (*str == '%')
+    {
+      _putchar('%');
+      return 0;
+    }
    return 0;
 }
