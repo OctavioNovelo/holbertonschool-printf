@@ -2,7 +2,7 @@
 /**
  *
  */
-char print_char(va_list args)
+int print_char(va_list args)
 {
    int character = va_arg(args, int);
    _putchar(character);
