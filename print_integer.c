@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
+ * print_integer - Print an integer.
+ * @args: A va_list containing the integer to print.
  *
+ * Return: The number of characters printed.
  */
 int print_integer(va_list args)
 {
-    va_list args_copy;
-    va_copy(args_copy, args);  
-    int num = va_arg(args_copy, int);
+    int num;
     int count = 0;
+
+    num = va_arg(args, int);
 
     if (num < 0)
     {
@@ -25,12 +28,11 @@ int print_integer(va_list args)
 
     if (num / 10)
     {
-        count += print_integer(args_copy);  
+        count += print_integer(args);
     }
 
     _putchar((num % 10) + '0');
     count++;
 
-    va_end(args_copy); 
     return count;
 }
