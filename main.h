@@ -14,7 +14,7 @@ struct definer
 {
 	char *sym;
 	int (*f)(va_list);
-        int (*f)(char *);
+        int (*s)(char *);
 };
 typedef struct definer definer;
 
