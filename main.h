@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAIN_H
+0;276;0c#define MAIN_H
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -14,7 +14,7 @@ struct definer
 {
 	char *sym;
 	int (*f)(va_list);
-        int (*s)(char *);
+        int (*g)(char *);
 };
 typedef struct definer definer;
 
