@@ -9,5 +9,4 @@ int _NULL(va_list args)
  if (str == NULL)
    return NULL;
 
- return 0;
 }
