@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_percent - Print a percent sign if the input string is a percent sign.
  * @str: A string containing the character to print.

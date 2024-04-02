@@ -23,7 +23,7 @@ int _putchar(char c);
 int checker(const char *format, definer f_list[], va_list arg_list);
 char *_NULL(va_list args);
 int print_char(va_list args);
-int print_percent(char *str)
+int print_percent(char *str);
 int print_string(va_list args);
 int print_integer(va_list args);
 
