@@ -2,7 +2,7 @@
 /**
  *
  */
-void  _NULL(va_list args)
+int _NULL(va_list args)
 {
  char *str = va_arg(args, char *);
 
