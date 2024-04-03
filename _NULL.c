@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- */
+ 
+ 
 char *_NULL(va_list args)
 {
  char *str = va_arg(args, char *);
@@ -11,3 +11,5 @@ char *_NULL(va_list args)
  else
    return str;
 }
+*/
+
