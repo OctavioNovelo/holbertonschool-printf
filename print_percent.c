@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *
- */
+ 
 int print_percent(char *str)
 {
   if (str == NULL)
@@ -17,3 +17,4 @@ int print_percent(char *str)
 
     return 0;
 }
+*/
