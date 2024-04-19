@@ -1,20 +1,13 @@
 #include "main.h"
 /**
+ * print_percent - Prints character "%"
+ * @args: Arguments
  *
- 
-int print_percent(char *str)
+ * Return: Character "%"
+ */
+
+int print_percent(va_list args)
 {
-  if (str == NULL)
-    {
-        return 0;
-    }
-
-    if (*str == '%')
-    {
-        _putchar('%');
-        return 1;
-    }
-
-    return 0;
+	(void)args;
+	return (write(1, "%", 1));
 }
-*/
