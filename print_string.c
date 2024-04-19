@@ -8,7 +8,7 @@ int print_string(va_list args)
   int printed_chars;
   printed_chars = 0;
     if (str == NULL)
-        return 0;
+        str = "null)";
 
     while (*str)
     {
