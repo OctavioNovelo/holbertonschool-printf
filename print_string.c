@@ -1,7 +1,12 @@
 #include "main.h"
+
 /**
+ * print_string - Prints a string
+ * @args: Arguments
  *
+ * Return: A string
  */
+
 int print_string(va_list args)
 {
   char *str = va_arg(args, char *);
