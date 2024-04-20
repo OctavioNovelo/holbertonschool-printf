@@ -1,12 +1,16 @@
-.TH man 3 "30 may 2024" "1.0" "_printf man page"
+.TH man_3_printf "30 may 2024" "1.0" "_printf man page"
+
 .SH NAME
-B._pritnf
+B. _pritnf
 - An alternative creation for the printf function
+
 .SH SYNOPSIS
 To use this this function the #include "main.h" header is a must.
+
 .SH DESCRIPTION
 The _printf() function produces output according to a format.
 This function write its output to stdout, the standard output stream.
+
 .SH OPTIONS
 When using _printf you have the option to use the following conversion specifiers.
 .RS 3
@@ -17,13 +21,17 @@ When using _printf you have the option to use the following conversion specifier
 %d: Used to print integers of max and min size of an int type
 .RS 0
 %i: Used to print integers of max and min size of an int type
+
 .SH RETURN VALUES
 The _printf() function returns the number of characters printed
 ,excluding the null byte used to end output to strings
+
 .SH SEE ALSO
--
+- printf(3)
+
 .SH BUGS
 No known bugs.
+
 .SH AUTHOR
 Octavio Novelo & Diego Ceron
 
