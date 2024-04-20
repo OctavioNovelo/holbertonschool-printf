@@ -18,8 +18,8 @@ int print_string(va_list args)
 	
 	while (*str)
 	{
-        	printed_chars += _putchar(*str);
-        	str++;
+        printed_chars += _putchar(*str);
+        str++;
     	}
 
     	return printed_chars;
